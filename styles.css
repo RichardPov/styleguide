@@ -1,0 +1,259 @@
+body {
+  max-width: 80%;
+  margin: 0px auto;
+  height: 100px;
+  font-family: "Roboto", sans-serif;
+}
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+nav a {
+  padding: 10px 0;
+  margin: 5%;
+  color: #2c553c;
+}
+.color1 {
+  background-color: #4169e1;
+}
+.color2 {
+  background-color: #48d1cc;
+}
+.color3 {
+  background-color: #e6d72a;
+}
+.color4 {
+  background-color: #f18d9e;
+}
+.color5 {
+  background-color: #00fa9a;
+}
+.color6 {
+  background-color: #d7abe0;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  border: 1px solid #2c553c;
+  margin: 30px auto;
+  padding: 30px;
+  width: 100%;
+}
+
+.colorbox {
+  display: inline-block;
+
+  width: 32%;
+  text-align: center;
+  margin: 20px auto;
+  min-height: 100px;
+}
+
+.main-font {
+  font-size: large;
+}
+.bold-text {
+  font-weight: bold;
+}
+.italic-text {
+  font-style: italic;
+}
+.font-styles {
+  display: inline-block;
+  width: 47%;
+  text-align: left;
+}
+.underline {
+  text-decoration: underline;
+}
+.garamond {
+  font-family: "EB Garamond", serif;
+}
+.bellota {
+  font-family: "Open Sans", cursive;
+}
+.nunito {
+  font-family: "Nunito Sans", sans-serif;
+}
+.roboto {
+  font-family: "Roboto", serif;
+}
+#text-styles {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.text-styles h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700 (bold);
+  font-size: 26px;
+}
+.text-styles h2 {
+  font-family: "Poppins", serif;
+  font-weight: 500 (bold);
+  font-size: 18px;
+}
+.text-styles p {
+  font-family: "Roboto", serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.button-style {
+  width: 100%;
+}
+button {
+  height: 40px;
+  width: 100px;
+  margin: 4%;
+  font-weight: bolder;
+}
+#button1 {
+  border-radius: 5px;
+  background-color: #48d1cc;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px;
+  transition: all 0.4s ease 0s;
+  border: none;
+  cursor: pointer;
+}
+#button1:hover {
+  background-color: #2c5522;
+  letter-spacing: 1px;
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+}
+
+#button2 {
+  border-radius: 50px;
+  background-color: #4169e1;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px;
+  transition: all 0.4s ease 0s;
+  border: none;
+  cursor: pointer;
+}
+#button2:hover {
+  color: white;
+  background-color: #09216a;
+  letter-spacing: 1px;
+  transition: all 0.4s ease 0s;
+  text-shadow: 1px 1px 2px pink;
+  width: 120px;
+  cursor: pointer;
+}
+#button3 {
+  border-radius: 5%;
+  background-color: rgb(189, 65, 214);
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px;
+  transition: all 0.4s ease 0s;
+  border: none;
+  cursor: pointer;
+}
+#button3:hover {
+  background-color: rgb(230, 196, 8);
+  letter-spacing: 2px;
+  transition: all 0.4s ease 0s;
+  border-radius: 5%;
+  width: 110px;
+  cursor: pointer;
+}
+#button4 {
+  border-radius: 5px;
+  color: #2c5522;
+  text-transform: uppercase;
+  padding: 10px;
+  transition: all 0.4s ease 0s;
+  border: 4px solid #2c5522;
+  cursor: pointer;
+}
+#button4:hover {
+  border: 5px solid black;
+  letter-spacing: 1px;
+  transition: all 0.4s ease 0s;
+  border-radius: 50px;
+  font-weight: bold;
+  width: 150px;
+  cursor: pointer;
+}
+#button5 {
+  border-radius: 5px;
+  background-color: rgb(224, 19, 132);
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px;
+  transition: all 0.4s ease 0s;
+  border: none;
+  cursor: pointer;
+}
+#button5:hover {
+  background-color: rgb(29, 101, 209);
+  letter-spacing: 1px;
+  transition: all 0.4s ease 0s;
+  width: 110px;
+  cursor: pointer;
+  box-shadow: 0 13px 17px 0 rgba(0, 0, 0, 0.25),
+    0 18px 51px 0 rgba(0, 0, 0, 0.2);
+}
+#button6 {
+  border-radius: 5px;
+  background-color: #66c24f;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px;
+  transition: all 0.4s ease 0s;
+  border: none;
+  cursor: pointer;
+}
+#button6:hover {
+  background-color: rgb(230, 42, 89);
+  letter-spacing: 1px;
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+  background-image: linear-gradient(rgb(25, 156, 115), #2c5522);
+  box-shadow: 0 13px 17px 0 rgba(0, 0, 0, 0.25), 0 18px 51px 0 yellow;
+}
+
+#tabs,
+#tabs li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#tabs li {
+  width: 250px;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 0.5s linear;
+  transition: height 0.5s linear;
+}
+
+#tabs li:target {
+  height: 250px;
+}
+
+#myfooter {
+  text-align: center;
+  background: white;
+  color: black;
+  height: 50px;
+  width: 100%;
+}
